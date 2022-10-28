@@ -148,7 +148,7 @@ public class CreateNewLine extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void ok_buttonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ok_buttonActionPerformed
-        controller.OkCreateLine(evt, this, item_name_line_label.getText(), item_name_line_label.getText(), item_price_line_label.getText());
+        controller.OkCreateLine(evt, this, item_name_line_label.getText(), item_count_line_label.getText(), item_price_line_label.getText());
     }//GEN-LAST:event_ok_buttonActionPerformed
 
     private void cancel_buttonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cancel_buttonActionPerformed
